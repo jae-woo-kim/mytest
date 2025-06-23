@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<!-- Include header -->
+<div th:insert="~{layouts/header :: header}"></div>
+
+<div class="bg-dark text-white p-5">
+  <h1 th:text="${nickname} +'님 다음에 또 만나요.'"></h1>
+</div>
+
+<!-- Include footer -->
+<div th:insert="~{layouts/footer :: footer}"></div>
